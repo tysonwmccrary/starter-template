@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Courier New Bold', 'BEBAS___', 'Bangers', 'Engcomica' 'glyphicons-halflings';
+  src:url('fonts');
+  src:url('fonts/Engcomica.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'Bangers';
+}
+
+h2#font {
+    font-family: 'Engcomica';
+    font-size: 75px;
+    color: rgba(255, 255, 0, 0.84);
+
+}
+
+ 
+h1.slider {
+
+    display: block;
+    -webkit-animation-duration: .9;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+
+}
+
+#flippo {
+    display: block;
+    -webkit-animation-duration: 10;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count:10;
+
+}
+
+.container {
+    margin-top: 25px;
+  
+}
+
+#spacer {
+    margin-bottom: 10px;
+}
+
+ body {
+    background-color: lightblue;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3px;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.post-container {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: rgba(47, 79, 79, 0.76);
+    position: relative;
+    padding: 25px;
+    margin: 10px;
+}
+
+.post-container2 {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    padding: 25px;
+    margin: 10px;
+}
+
+.post-container3 {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.34);
+    position: relative;
+    padding: 25px;
+    margin: 10px;
+}
+
+.textcolor {
+    color: white;
+}
+ 
